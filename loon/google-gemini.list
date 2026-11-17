@@ -1,0 +1,42 @@
+# 由 src/google-gemini.list 生成，不要直接改这个文件。
+# 每行不写策略。策略写在 Loon 的 [Remote Rule] 订阅行上。
+# Google AI Studio 与 Gemini
+# 主机取自 v2fly/domain-list-community 的 data/google-deepmind（MIT）中
+# AI Studio、Gemini 网页、Generative Language API、Workspace 侧边栏这几段。
+# 不收录 NotebookLM、Jules、Colab、Antigravity、Cloud Code Assist。
+# 不收录 google.com / googleapis.com / gstatic.com / apis.google.com 这类共享后缀。
+
+# AI Studio 网站与旧名
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,ai.studio
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN,ai.google.dev
+DOMAIN,alkalicore-pa.clients6.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
+# AI Studio 的图片和视频生成；Google Flow 也使用同一主机
+DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
+
+# Gemini 网页与旧名 Bard
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,gemini.google
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,gemini.gstatic.com
+DOMAIN,geminiweb-pa.clients.google.com
+DOMAIN,geminiweb-pa.clients6.google.com
+
+# Gemini API
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
+
+# Gemini 在 Gmail / 文档 / 云端硬盘里的侧边栏
+DOMAIN,appsgenaiserver-pa.clients.google.com
+DOMAIN,appsgenaiserver-pa.clients6.google.com
+DOMAIN,appsgenaiserver-pa.googleapis.com
+
+# DeepMind 产品站
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
