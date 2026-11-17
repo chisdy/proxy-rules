@@ -18,10 +18,10 @@ python3 scripts/render.py
 
 ## Google AI Studio 与 Gemini
 
-`src/google-gemini.list` 只覆盖这两个产品自己的主机，共 24 条。包括：
+`src/google-gemini.list` 只覆盖这两个产品自己的主机，共 26 条。包括：
 
-- 网站：`aistudio.google.com`、`gemini.google.com`，以及旧名 `makersuite.google.com`、`bard.google.com`、`ai.studio`
-- AI Studio 接口：`alkalimakersuite-pa.clients6.google.com`、`webchannel-alkalimakersuite-pa.clients6.google.com`、`aisandbox-pa.googleapis.com`
+- 网站：`aistudio.google.com`、`gemini.google.com`、`gemini.app.google`，以及旧名 `makersuite.google.com`、`bard.google.com`、`ai.studio`
+- AI Studio 接口：`alkalimakersuite-pa.clients6.google.com`、`webchannel-alkalimakersuite-pa.clients6.google.com`、`alkalimakersuiteapplets.pa.clients6.google.com`、`aisandbox-pa.googleapis.com`
 - Gemini API：`generativelanguage.googleapis.com`
 - Gemini 网页接口和 `gemini.gstatic.com`
 - Gmail / 文档 / 云端硬盘里的 Gemini 侧边栏

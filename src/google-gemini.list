@@ -13,6 +13,7 @@ DOMAIN,ai.google.dev
 DOMAIN,alkalicore-pa.clients6.google.com
 DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
+DOMAIN,alkalimakersuiteapplets.pa.clients6.google.com
 # AI Studio 的图片和视频生成；Google Flow 也使用同一主机
 DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
 
@@ -23,6 +24,7 @@ DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,gemini.gstatic.com
 DOMAIN,geminiweb-pa.clients.google.com
 DOMAIN,geminiweb-pa.clients6.google.com
+DOMAIN,gemini.app.google
 
 # Gemini API
 DOMAIN-SUFFIX,generativelanguage.googleapis.com
